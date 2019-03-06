@@ -14,6 +14,7 @@ def get_output(inputs):
 		s = s + x
 		outputs.append(s)
 	length = len(outputs)
+	if length != len(inputs) : print("input and output lists are unequal length") #make sure input and output lists have same number of elements
 	return outputs, length
 
 def comparator(outputs, length):
