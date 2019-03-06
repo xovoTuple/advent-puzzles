@@ -32,3 +32,7 @@ def comparator(outputs, length):
 inputs = get_input()
 outputs, length  = get_output(inputs)
 comparator(outputs, length)
+
+
+
+
